@@ -30,7 +30,7 @@ function validateForm(event) {
 // if we change the validation rules (for example, require the value to be 4 characters) we can just change it in one place
 function validateInput(value) {
     // check length of the value
-    if (value.length >= 2) {
+    if (value.trim().length >= 2) {
         return true;
     } else {
         return false;
