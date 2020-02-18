@@ -39,6 +39,6 @@ function createGames(json) {
     //             </div>`;
     // });
 
-    // assing the created HTML to be the innerHTML of the div
+    // assign the created HTML to be the innerHTML of the div
     container.innerHTML = html;
 }
